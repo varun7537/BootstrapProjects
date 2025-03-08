@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Varun Vangari's portfolio showcasing services, portfolio, and team.">
+    <meta name="keywords" content="web design, development, services, portfolio, Varun Vangari">
+    <meta name="author" content="Varun Vangari">
+    <title>Varun Vangari Portfolio</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS (Animate On Scroll) Library for Animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- Swiper for Testimonials -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.0/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-warning" href="#home">VARUN VANGARI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#team">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="area">
+            <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="container hero-content">
+            <h2 data-aos="fade-up">Welcome To My Creative Studio</h2>
+            <h1 data-aos="fade-up" data-aos-delay="200">I'm Varun Vangari</h1>
+            <p class="mb-4 lead" data-aos="fade-up" data-aos-delay="400">Web Developer | UI/UX Designer | Digital Artist</p>
+            <a href="#contact" class="btn btn-custom btn-cta" data-aos="fade-up" data-aos-delay="600">Let's Work Together</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 data-aos="fade-up">MY SERVICES</h1>
+                <p class="lead" data-aos="fade-up" data-aos-delay="200">Providing high-quality services to bring your vision to life</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <h3>E-Commerce Solutions</h3>
+                        <p>Custom e-commerce websites with payment integration, inventory management, and responsive design to maximize your online sales.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Professional website development with clean code, modern design principles, and optimal performance across all devices.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <p>Creating intuitive user interfaces and engaging user experiences that keep visitors coming back to your website.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Responsive Design</h3>
+                        <p>Building websites that work flawlessly on all devices, from desktop computers to smartphones and tablets.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>SEO Optimization</h3>
+                        <p>Improving your website's visibility in search engines to attract more visitors and increase your online presence.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-box">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Web Security</h3>
+                        <p>Implementing robust security measures to protect your website and customer data from threats and vulnerabilities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 data-aos="fade-up">MY PORTFOLIO</h1>
+                <p class="lead" data-aos="fade-up" data-aos-delay="200">Check out some of my recent projects</p>
+            </div>
+            
+            <div class="portfolio-filter text-center" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="*">All</button>
+                <button class="filter-btn" data-filter=".web">Web Design</button>
+                <button class="filter-btn" data-filter=".graphic">Graphic Design</button>
+                <button class="filter-btn" data-filter=".brand">Branding</button>
+                <button class="filter-btn" data-filter=".photo">Photography</button>
+            </div>
+            
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 portfolio-item web" data-aos="fade-up">
+                    <div class="portfolio-wrap">
+                        <img src="thread.jpg" class="img-fluid portfolio-img" alt="Threads Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-category">Web Design</div>
+                            <h3 class="portfolio-title">Threads</h3>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-icon"><i class="fas fa-link"></i></a>
+                                <a href="thread.jpg" class="portfolio-icon"><i class="fas fa-search-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 portfolio-item graphic" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-wrap">
+                        <img src="explore.jpg" class="img-fluid portfolio-img" alt="Explore Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-category">Graphic Design</div>
+                            <h3 class="portfolio-title">Explore</h3>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-icon"><i class="fas fa-link"></i></a>
+                                <a href="explore.jpg" class="portfolio-icon"><i class="fas fa-search-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 portfolio-item brand" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-wrap">
+                        <img src="finish.jpg" class="img-fluid portfolio-img" alt="Finish Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-category">Branding</div>
+                            <h3 class="portfolio-title">Finish</h3>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-icon"><i class="fas fa-link"></i></a>
+                                <a href="finish.jpg" class="portfolio-icon"><i class="fas fa-search-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 portfolio-item brand" data-aos="fade-up">
+                    <div class="portfolio-wrap">
+                        <img src="lines.jpg" class="img-fluid portfolio-img" alt="Lines Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-category">Branding</div>
+                            <h3 class="portfolio-title">Lines</h3>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-icon"><i class="fas fa-link"></i></a>
+                                <a href="lines.jpg" class="portfolio-icon"><i class="fas fa-search-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 portfolio-item web" data-aos="fade-up" data-aos-delay="200">
+                    <div class="portfolio-wrap">
+                        <img src="southwest.jpg" class="img-fluid portfolio-img" alt="Southwest Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-category">Web Design</div>
+                            <h3 class="portfolio-title">Southwest</h3>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-icon"><i class="fas fa-link"></i></a>
+                                <a href="southwest.jpg" class="portfolio-icon"><i class="fas fa-search-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6 portfolio-item photo" data-aos="fade-up" data-aos-delay="400">
+                    <div class="portfolio-wrap">
+                        <img src="window.jpg" class="img-fluid portfolio-img" alt="Window Project">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-category">Photography</div>
+                            <h3 class="portfolio-title">Window</h3>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-icon"><i class="fas fa-link"></i></a>
+                                <a href="window.jpg" class="portfolio-icon"><i class="fas fa-search-plus"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 data-aos="fade-up">MY SKILLS</h1>
+                <p class="lead" data-aos="fade-up" data-aos-delay="200">Technical skills I've acquired over the years</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-up">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML/CSS</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">React</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">UI/UX Design</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">PHP</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75%"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span class="skill-name">WordPress</span>
+                            <span class="skill-percentage">88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="88%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Counter Section -->
+    <section class="counter-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6" data-aos="fade-up">
+                    <div class="counter-box">
+                        <div class="counter-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3 class="counter-number" data-count="250">0</h3>
+                        <p class="counter-text">Projects Completed</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="counter-box">
+                        <div class="counter-icon">
+                            <i class="fas fa-smile"></i>
+                        </div>
+                        <h3 class="counter-number" data-count="120">0</h3>
+                        <p class="counter-text">Happy Clients</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="counter-box">
+                        <div class="counter-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3 class="counter-number" data-count="15">0</h3>
+                        <p class="counter-text">Awards Won</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="counter-box">
+                        <div class="counter-icon">
+                            <i class="fas fa-coffee"></i>
+                        </div>
+                        <h3 class="counter-number" data-count="4500">0</h3>
+                        <p class="counter-text">Cups of Coffee</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Experience Timeline Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 data-aos="fade-up">MY EXPERIENCE</h1>
+                <p class="lead" data-aos="fade-up" data-aos-delay="200">Professional journey and milestones</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022 - Present</div>
+                        <h4>Senior Web Developer</h4>
+                        <h5>Tech Solutions Inc.</h5>
+                        <p>Leading web development team, implementing best practices, and delivering high-quality web solutions for enterprise clients.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2020 - 2022</div>
+                        <h4>Full-Stack Developer</h4>
+                        <h5>Digital Innovations</h5>
+                        <p>Developed responsive websites and web applications using modern JavaScript frameworks and backend technologies.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2018 - 2020</div>
+                        <h4>UI/UX Designer</h4>
+                        <h5>Creative Studio</h5>
+                        <p>Designed user interfaces and experiences for websites and mobile applications, focusing on usability and aesthetics.</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <div class="timeline-date">2016 - 2018</div>
+                        <h4>Junior Web Developer</h4>
+                        <h5>Web Experts</h5>
+                        <p>Started career as a junior developer, building websites using HTML, CSS, and JavaScript.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Team Section -->
+    <section id="team" class="team-section bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 data-aos="fade-up">OUR AMAZING TEAM</h1>
+                <p class="lead" data-aos="fade-up" data-aos-delay="200">Meet the talented people behind our success</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="team-member">
+                        <div class="team-img">
+                            <img src="image1.jpg" class="img-fluid" alt="Team Member">
+                        </div>
+                        <div class="team-info">
+                            <h4 class="team-name">Varun Vangari</h4>
+                            <p class="team-position">Lead Designer</p>
+                            <div class="team-social">
+                                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="team-member">
+                        <div class="team-img">
+                            <img src="image1.jpg" class="img-fluid" alt="Team Member">
+                        </div>
+                        <div class="team-info">
+                            <h4 class="team-name">John Doe</h4>
+                            <p class="team-position">Web Developer</p>
+                            <div class="team-social">
+                                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="team-member">
+                        <div class="team-img">
+                            <img src="image1.jpg" class="img-fluid" alt="Team Member">
+                        </div>
+                        <div class="team-info">
+                            <h4 class="team-name">Jane Smith</h4>
+                            <p class="team-position">Marketing Specialist</p>
+                            <div class="team-social">
+                                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonial-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 data-aos="fade-up">TESTIMONIALS</h1>
+                <p class="lead" data-aos="fade-up" data-aos-delay="200">What our clients say about us</p>
+            </div>
+            
+            <div class="swiper testimonial-swiper" data-aos="fade-up">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-text">
+                                Varun and his team delivered an exceptional website that perfectly captured our brand identity. Their attention to detail and responsiveness to our feedback made the entire process smooth and enjoyable.
+                            </div>
+                            <div class="client-info">
+                                <div class="client-img">
+                                    <img src="client1.jpg" alt="Client" class="img-fluid">
+                                </div>
+                                <div>
+                                    <h5 class="client-name">Michael Johnson</h5>
+                                    <p class="client-position">CEO, TechStart</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-text">
+                                Working with Varun was a game-changer for our e-commerce store. The website redesign resulted in a 40% increase in sales within just two months. Their expertise in UX design and optimization is truly impressive.
+                            </div>
+                            <div class="client-info">
+                                <div class="client-img">
+                                    <img src="client2.jpg" alt="Client" class="img-fluid">
+                                </div>
+                                <div>
+                                    <h5 class="client-name">Sarah Williams</h5>
+                                    <p class="client-position">Owner, Fashion Boutique</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-text">
+                                I'm extremely satisfied with the website Varun created for my photography business. His creative vision and technical skills resulted in a portfolio that showcases my work beautifully across all devices.
+                            </div>
+                            <div class="client-info">
+                                <div class="client-img">
+                                    <img src="client3.jpg" alt="Client" class="img-fluid">
+                                </div>
+                                <div>
+                                    <h5 class="client-name">David Brown</h5>
+                                    <p class="client-position">Professional Photographer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 data-aos="fade-up">GET IN TOUCH</h1>
+                <p class="lead" data-aos="fade-up" data-aos-delay="200">Let's discuss your project and bring your ideas to life</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-5" data-aos="fade-up">
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Location:</h5>
+                                <p>123 Web Street, Digital City, 10110</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Email:</h5>
+                                <p>contact@varunvangari.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h5>Phone:</h5>
+                                <p>+1 234 567 8901</p>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3!2d-73.9874!3d40.748817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0:0x0!2zNDPCsDQyJzE5LjgiTiA3M8KwNTEnNTMuNyJX!5e0!3m2!1sen!2sus!4v1655375103" width="100%" height="300" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
+                        </div>                        
+                    </div>
+                </div>
+                
+                <div class="col-lg-7" data-aos="fade-up" data-aos-delay="200">
+                    <form class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="email">Your Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Enter subject">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Enter your message"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-custom mt-3">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-about">
+                        <div class="footer-logo">VARUN VANGARI</div>
+                        <p>Dedicated web developer and designer creating unique digital experiences that help businesses grow and succeed online.</p>
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-links">
+                        <h5>Quick Links</h5>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-contact">
+                        <h5>Contact Me</h5>
+                        <p><i class="fas fa-map-marker-alt"></i> 123 Web Street, Digital City, 10110</p>
+                        <p><i class="fas fa-phone-alt"></i> +1 234 567 8901</p>
+                        <p><i class="fas fa-envelope"></i> contact@varunvangari.com</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-newsletter">
+                        <h5>Newsletter</h5>
+                        <p>Subscribe to my newsletter for updates on the latest projects and web development trends.</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Enter your email">
+                            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Varun Vangari. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+    
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- AOS JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <!-- Swiper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.2.0/swiper-bundle.min.js"></script>
+    
+    <script>
+        AOS.init({
+            duration: 1200,
+            easing: 'ease-in-out',
+        });
+    </script>
+</body>
+</html>
